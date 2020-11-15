@@ -99,7 +99,7 @@ public class TFBC_CoreCipher {
                 R = t;
             }
             else {
-                switch((i*m)%2){
+                switch((i*m)%4){
 
                     case 0:
                         R ^= ((f_1(L, i)));
@@ -153,7 +153,7 @@ public class TFBC_CoreCipher {
                 R = t;
             }
             else {
-                switch ((i * m) % 2) {
+                switch ((i * m) % 4) {
 
                     case 0:
                         R ^= ((f_1(L, i)));
