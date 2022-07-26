@@ -8,7 +8,7 @@ public class Process {
     {
 
         TFBC_CoreCipher cipher = new TFBC_CoreCipher(541.764, 141242452412.6536);
-        byte[] p = Encoding.ASCII.GetBytes("Sex is corny. Cryptography makes me horny! ");
+	byte[] p = Encoding.ASCII.GetBytes("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
         byte[] e = cipher.encrypt(p);
         byte[] d = cipher.decrypt(e);
 		Console.WriteLine(Encoding.ASCII.GetString(d));
